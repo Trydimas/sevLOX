@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sevLOX Create topic</title>
+	<link rel="stylesheet" href="../css/headerStyle.css">
+	<link rel="stylesheet" type="text/css" href="../css/create-topic.css">
+</head>
+<body>
+	<div class="contain">
+		<header class = 'header'>
+			<div class="page-pub">
+				<p>sevLOX Forums</p>
+			</div>
+			<nav class= 'nav'>
+				<a href="register.html">Register</a>
+				<a href="login.html">Login</a>
+				<a href="home.html">Home</a>
+				<a href="create-topic.html" style="background-color: #12445d;">Create topic</a>
+			</nav>
+			<div class="authenticate">
+				<span>You are not logged in. Please <a href="login.html" style="text-decoration: none;">login</a> or <a href="register.html" style="text-decoration: none;">register</a>.</span>
+			</div>
+		</header>
+		<div class="block-container">
+			<p class="sign">Create topic</p>
+			<form action="" class="block-body">
+				<input type="text" class = "topic-title"placeholder="Topic title">
+				<textarea class="topic-description"></textarea>
+				<div class="uploaded-file">
+					<ul>
+						<!-- add file from js -->
+					</ul>
+				</div>
+				<label class = "file-upload" for="upload">
+					<input id = 'upload'type="file">
+					<span><img src="../img/attach.png">Attach file</span>
+				</label>
+				<input type="submit" value="Create topic" class="createBtn">
+			</form>
+		</div>
+	</div>
+</body>
