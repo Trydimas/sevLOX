@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>name of topic</title>
+	<link rel="stylesheet" href="../css/headerStyle.css">
+	<link rel="stylesheet" type="text/css" href="../css/base-topic.css ">
+</head>
+<body>
+	<div class="contain">
+		<header class = 'header'>
+			<div class="page-pub">
+				<p>sevLOX Forums</p>
+			</div>
+			<nav class= 'nav'>
+				<a href="register.html">Register</a>
+				<a href="login.html">Login</a>
+				<a href="home.html">Home</a>
+				<a href="create-topic.html" class="create-topic">Create topic</a>
+			</nav>
+			<div class="authenticate">
+				<span>You are not logged in. Please <a href="login.html" style="text-decoration: none;">login</a> or <a href="register.html" style="text-decoration: none;">register</a>.</span>
+			</div>
+		</header>
+		<div class="main-container" style="background: #f5f5f5;">
+			<div class="sign-page">
+				<span>posts: <i>inforamtion about posts</i></span><!-- не забыть! -->
+			</div>
+			<div class="descussion" style="padding-bottom: 10px;">
+				<div class="post">
+					<div class="post-entry count-1">
+						<h1>Title</h1>
+						<p>Question</p>
+						<span><!-- any file * form js * --></span>
+						<h3>from name</h3>
+					</div>
+				<span class="sign-answer"><h1>Answer</h1></span>
+				<form action="" class="create-answer" style="width: 100%;">
+					<textarea class="answer-text"></textarea>
+					<div class="uploaded-file">
+						<ul>
+							<!-- add file from js -->
+						</ul>
+					</div>
+					<label class = "file-upload" for="upload">
+						<input id = 'upload'type="file">
+						<span><img src="../img/attach.png">Attach file</span>
+					</label>
+					<input type="submit" value="Answer" class="answerBtn">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
